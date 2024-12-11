@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 750px;
+    height: 550px;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion {
+    display: grid;
+    width: 600px;
+    padding: 10px;
+    background-color:antiquewhite;
+    border: solid gray;
+}
+
+.expand {
+    cursor: pointer;
+}
+.toggle {
+    transform: rotate(180deg);
+}
+li {
+    list-style-type: none;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: fit-content;
+    gap: 10px;
+}
+.acc-content {
+    display: none;
+}
